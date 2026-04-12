@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NH Hotel du Sablon — Boutiques Partenaires</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <p class="hero-subtitle">Bienvenue au</p>
+        <h1 class="hero-title">NH Hotel du Sablon</h1>
+        <div class="hero-divider"></div>
+        <p class="hero-text">En tant que client privilégié, découvrez notre sélection de boutiques partenaires où vous serez accueilli de manière personnalisée.</p>
+    </div>
+</header>
+
+<!-- HOW IT WORKS -->
+<section class="how-it-works">
+    <h2>Votre expérience exclusive</h2>
+    <div class="steps">
+        <div class="step">
+            <div class="step-icon">1</div>
+            <h3>Choisissez</h3>
+            <p>Sélectionnez une boutique dans notre collection partenaire</p>
+        </div>
+        <div class="step">
+            <div class="step-icon">2</div>
+            <h3>Présentez-vous</h3>
+            <p>Indiquez que vous êtes client de l'hôtel NH du Sablon</p>
+        </div>
+        <div class="step">
+            <div class="step-icon">3</div>
+            <h3>Profitez</h3>
+            <p>Laissez-vous guider… votre expérience commence</p>
+        </div>
+    </div>
+</section>
+
+<!-- BOUTIQUES -->
+<section class="boutiques" id="boutiques">
+    <h2>Nos Boutiques Partenaires</h2>
+
+    <!-- Filter -->
+    <div class="filters">
+        <button class="filter-btn active" data-filter="all">Toutes</button>
+        <button class="filter-btn" data-filter="mode">Mode</button>
+        <button class="filter-btn" data-filter="gastronomie">Gastronomie</button>
+        <button class="filter-btn" data-filter="beaute">Beauté</button>
+        <button class="filter-btn" data-filter="art">Art & Culture</button>
+        <button class="filter-btn" data-filter="chocolat">Chocolat</button>
+    </div>
+
+    <div class="boutiques-grid" id="boutiques-grid">
+        <!-- Filled by JS -->
+    </div>
+</section>
+
+<!-- BOUTIQUE DETAIL MODAL -->
+<div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal">
+        <button class="modal-close" id="modal-close">&times;</button>
+        <div class="modal-img" id="modal-img"></div>
+        <div class="modal-body">
+            <span class="modal-category" id="modal-category"></span>
+            <h2 id="modal-name"></h2>
+            <p class="modal-description" id="modal-description"></p>
+
+            <div class="modal-info">
+                <div class="modal-info-item">
+                    <span class="modal-info-label">Adresse</span>
+                    <span id="modal-address"></span>
+                </div>
+                <div class="modal-info-item">
+                    <span class="modal-info-label">Horaires</span>
+                    <span id="modal-hours"></span>
+                </div>
+            </div>
+
+            <div class="modal-exclusive" id="modal-exclusive">
+                <h3>Votre avantage exclusif</h3>
+                <p id="modal-offer"></p>
+            </div>
+
+            <div class="modal-actions">
+                <a class="btn btn-primary" id="modal-map" href="#" target="_blank" rel="noopener">Itinéraire</a>
+                <a class="btn btn-secondary" id="modal-phone" href="#">Appeler</a>
+                <a class="btn btn-outline" id="modal-website" href="#" target="_blank" rel="noopener">Site web</a>
+                <a class="btn btn-outline" id="modal-instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>NH Hotel du Sablon &middot; Rue de la Paille 2, 1000 Bruxelles</p>
+    <p class="footer-small">Offres réservées aux clients de l'hôtel. Sous réserve de disponibilité.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
