@@ -16,7 +16,6 @@ function renderCards(filter = 'all') {
             <div class="card-body">
                 <h3 class="card-name">${b.name}</h3>
                 <p class="card-desc">${b.shortDesc}</p>
-                ${b.offer ? `<p class="card-offer">★ ${b.offer}</p>` : ''}
             </div>
         </article>
     `).join('');
@@ -49,10 +48,6 @@ function openModal(id) {
     document.getElementById('modal-description').textContent = b.description;
     document.getElementById('modal-address').textContent = b.address;
     document.getElementById('modal-hours').textContent = b.hours;
-    document.getElementById('modal-offer').textContent = b.offer || '';
-
-    const exclusive = document.getElementById('modal-exclusive');
-    exclusive.style.display = b.offer ? 'block' : 'none';
 
     setLink('modal-map', b.mapUrl);
     setLink('modal-phone', b.phone ? `tel:${b.phone}` : '');

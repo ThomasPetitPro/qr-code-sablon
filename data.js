@@ -15,14 +15,13 @@ const boutiques = [
         mapUrl: "https://maps.google.com/?q=Maison+Marcolini+Sablon+Bruxelles",
         website: "https://www.marcolini.com",
         instagram: "https://www.instagram.com/pierremarcolini",
-        image: "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=800&q=80",
-        offer: "Un ballotin découverte offert pour tout achat supérieur à 30€"
+        image: "https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=800&q=80"
     },
     {
         id: 2,
         name: "Wittamer",
-        category: "gastronomie",
-        categoryLabel: "Gastronomie",
+        category: "restauration",
+        categoryLabel: "Restauration",
         description: "Depuis 1910, la Maison Wittamer est une institution bruxelloise réputée pour ses pâtisseries raffinées, ses chocolats artisanaux et son salon de thé élégant au cœur du Sablon.",
         shortDesc: "Pâtisserie de prestige depuis 1910",
         address: "Place du Grand Sablon 12, 1000 Bruxelles",
@@ -31,8 +30,7 @@ const boutiques = [
         mapUrl: "https://maps.google.com/?q=Wittamer+Grand+Sablon+Bruxelles",
         website: "https://www.wittamer.com",
         instagram: "https://www.instagram.com/wittamer_brussels",
-        image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=800&q=80",
-        offer: "Une boisson chaude offerte pour tout achat pâtisserie"
+        image: "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=800&q=80"
     },
     {
         id: 3,
@@ -47,8 +45,7 @@ const boutiques = [
         mapUrl: "https://maps.google.com/?q=Rue+des+Minimes+21+Bruxelles",
         website: "",
         instagram: "https://www.instagram.com/isabellebentot",
-        image: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=800&q=80",
-        offer: "Accueil personnalisé et conseils styling dédiés"
+        image: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=800&q=80"
     },
     {
         id: 4,
@@ -63,8 +60,7 @@ const boutiques = [
         mapUrl: "https://maps.google.com/?q=Senteurs+d+Ailleurs+Bruxelles",
         website: "https://www.senteursdailleurs.com",
         instagram: "https://www.instagram.com/senteursdailleurs",
-        image: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
-        offer: "Consultation olfactive privée offerte"
+        image: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80"
     },
     {
         id: 5,
@@ -79,14 +75,13 @@ const boutiques = [
         mapUrl: "https://maps.google.com/?q=Galerie+Costermans+Sablon+Bruxelles",
         website: "https://www.costermans.be",
         instagram: "",
-        image: "https://images.unsplash.com/photo-1577720643272-265f09367456?w=800&q=80",
-        offer: "Visite guidée privée de la galerie sur rendez-vous"
+        image: "https://images.unsplash.com/photo-1577720643272-265f09367456?w=800&q=80"
     },
     {
         id: 6,
         name: "Le Pain Quotidien",
-        category: "gastronomie",
-        categoryLabel: "Gastronomie",
+        category: "restauration",
+        categoryLabel: "Restauration",
         description: "L'enseigne bruxelloise iconique propose ses tartines généreuses, viennoiseries artisanales et brunchs bio dans un cadre chaleureux, à deux pas de l'hôtel.",
         shortDesc: "Tartines, brunch & bio — l'iconique belge",
         address: "Rue des Sablons 11, 1000 Bruxelles",
@@ -95,7 +90,81 @@ const boutiques = [
         mapUrl: "https://maps.google.com/?q=Le+Pain+Quotidien+Sablons+Bruxelles",
         website: "https://www.lepainquotidien.com",
         instagram: "https://www.instagram.com/lepainquotidien",
-        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
-        offer: "Un café ou thé offert au petit-déjeuner"
+        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+    },
+    {
+        id: 7,
+        name: "Baobab Collection",
+        category: "art-de-vivre",
+        categoryLabel: "Art de vivre",
+        description: "Maison belge fondée en 2002, Baobab Collection crée des bougies parfumées et diffuseurs d'exception soufflés à la main. Un art de vivre raffiné qui transforme chaque intérieur en écrin sensoriel.",
+        shortDesc: "Bougies & parfums d'intérieur de luxe",
+        address: "Place du Grand Sablon, 1000 Bruxelles",
+        hours: "Lun–Sam : 10h30–18h30 · Dim : 11h–18h",
+        phone: "",
+        mapUrl: "https://maps.google.com/?q=Baobab+Collection+Sablon+Bruxelles",
+        website: "https://www.baobabcollection.com",
+        instagram: "https://www.instagram.com/baobabcollection",
+        image: "https://images.unsplash.com/photo-1602178141046-cd64edf21c3c?w=800&q=80"
+    },
+    {
+        id: 8,
+        name: "Gien",
+        category: "art-de-vivre",
+        categoryLabel: "Art de vivre",
+        description: "Faïencerie française emblématique fondée en 1821, Gien propose des arts de la table et objets de décoration d'une élégance intemporelle, mêlant savoir-faire ancestral et créations contemporaines.",
+        shortDesc: "Faïence française depuis 1821",
+        address: "Place du Grand Sablon, 1000 Bruxelles",
+        hours: "Mar–Sam : 10h30–18h30",
+        phone: "",
+        mapUrl: "https://maps.google.com/?q=Gien+Sablon+Bruxelles",
+        website: "https://www.gien.com",
+        instagram: "https://www.instagram.com/faiencerie_de_gien",
+        image: "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80"
+    },
+    {
+        id: 9,
+        name: "Arthus-Bertrand",
+        category: "mode",
+        categoryLabel: "Mode",
+        description: "Maison de joaillerie parisienne fondée en 1803, Arthus-Bertrand perpétue un savoir-faire d'exception dans la création de bijoux, médailles et pièces d'orfèvrerie raffinées.",
+        shortDesc: "Joaillerie parisienne depuis 1803",
+        address: "Place du Grand Sablon, 1000 Bruxelles",
+        hours: "Mar–Sam : 10h30–18h30",
+        phone: "",
+        mapUrl: "https://maps.google.com/?q=Arthus+Bertrand+Sablon+Bruxelles",
+        website: "https://www.arthus-bertrand.com",
+        instagram: "https://www.instagram.com/arthusbertrand_paris",
+        image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=80"
+    },
+    {
+        id: 10,
+        name: "Passion Chocolat",
+        category: "chocolat",
+        categoryLabel: "Chocolat",
+        description: "Chocolaterie artisanale bruxelloise où chaque praline est élaborée dans la tradition belge. Une sélection gourmande de tablettes, ganaches et créations saisonnières à déguster sans modération.",
+        shortDesc: "Chocolaterie artisanale bruxelloise",
+        address: "Rue Bodenbroek 4, 1000 Bruxelles",
+        hours: "Lun–Sam : 10h–18h · Dim : 10h–17h",
+        phone: "",
+        mapUrl: "https://maps.google.com/?q=Passion+Chocolat+Sablon+Bruxelles",
+        website: "https://www.passionchocolat.be",
+        instagram: "https://www.instagram.com/passionchocolatbrussels",
+        image: "https://images.unsplash.com/photo-1526081347589-7fa3cb41966b?w=800&q=80"
+    },
+    {
+        id: 11,
+        name: "Flamant",
+        category: "art-de-vivre",
+        categoryLabel: "Art de vivre",
+        description: "Maison belge emblématique née au Sablon en 1972, Flamant incarne un art de vivre authentique : mobilier, luminaires et objets décoratifs aux matières nobles et aux lignes épurées.",
+        shortDesc: "Mobilier & décoration d'intérieur",
+        address: "Place du Grand Sablon 36, 1000 Bruxelles",
+        hours: "Lun–Sam : 10h–18h30 · Dim : 11h–18h",
+        phone: "",
+        mapUrl: "https://maps.google.com/?q=Flamant+Sablon+Bruxelles",
+        website: "https://www.flamant.com",
+        instagram: "https://www.instagram.com/flamant_official",
+        image: "https://images.unsplash.com/photo-1567016526105-22da7c13161a?w=800&q=80"
     }
 ];
