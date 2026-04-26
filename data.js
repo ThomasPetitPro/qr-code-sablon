@@ -5,8 +5,8 @@ const boutiques = [
     {
         id: 9,
         name: "Arthus Bertrand",
-        category: "mode",
-        categoryLabel: "Mode",
+        category: "joaillerie",
+        categoryLabel: "Joaillerie & Horlogerie",
         description: "Maison de joaillerie parisienne fondée en 1803, Arthus Bertrand perpétue un savoir-faire d'exception dans la création de bijoux, médailles et pièces d'orfèvrerie raffinées.",
         shortDesc: "Joaillerie parisienne depuis 1803",
         address: "Rue Bodenbroek 2-4, 1000 Bruxelles",
